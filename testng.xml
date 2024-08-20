@@ -4,8 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_InvalidCredentials.java">
         <classes>
-            <class name="VWO.SignInWith_InvalidCredentials">
-            </class>
+            <class name="VWO.SignInWith_InvalidCredentials"></class>
         </classes>
     </test>
 </suite>

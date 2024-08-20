@@ -18,7 +18,7 @@ public class SignInWith_ValidCred extends TestBase {
         initializeDriver();
     }
     @Test
-    public void SignInWithValidCred() throws IOException {
+    public void SignInWithValidCred() throws IOException, InterruptedException {
         LoginPage_POM login=new LoginPage_POM(driver);
         login.loginToVWO_ValidCreds();
 

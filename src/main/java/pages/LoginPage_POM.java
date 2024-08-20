@@ -1,11 +1,12 @@
 package pages;
 
 import com.Utils.TestBase;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.LinkedHashMap;
 
@@ -50,7 +51,7 @@ public class LoginPage_POM extends TestBase {
         return error_msg_text;
     }
 
-    public void loginToVWO_ValidCreds() throws IOException {
+    public void loginToVWO_ValidCreds() throws IOException, InterruptedException {
         LinkedHashMap<String,String> data= getDataFromExcel("app_VWO.xlsx","signIn",true,"app_001");
         String username=data.get("UserName");
         String password=data.get("Password");
@@ -59,6 +60,14 @@ public class LoginPage_POM extends TestBase {
         driver.get(url);
         driver.findElement(usernameLocator).sendKeys(username);
         driver.findElement(passwordLocator).sendKeys(password);
+
+        //Thread.sleep(10000);
+        TakesScreenshot shot=(TakesScreenshot) driver;
+        File file=shot.getScreenshotAs(OutputType.FILE);
+        String randomName= RandomStringUtils.randomAlphabetic(3);
+        File file1=new File("screenShots/"+randomName+".png");
+        FileUtils.copyFile(file, file1);
+
         driver.findElement(signButtonLocator);
 
     }
