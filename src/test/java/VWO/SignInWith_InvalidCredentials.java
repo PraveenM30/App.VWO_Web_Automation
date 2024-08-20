@@ -1,8 +1,9 @@
 package VWO;
 
 import com.Utils.TestBase;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,10 +14,11 @@ import java.io.IOException;
 
 public class SignInWith_InvalidCredentials extends TestBase {
 
-private static final Logger logger= LogManager.getLogger(SignInWith_InvalidCredentials.class);
-
     @BeforeTest
     public void initializeBrowser() throws IOException {
+        // Reading The logger
+        logger = Logger.getLogger("signin with InvalidCred");// Adding logger
+        PropertyConfigurator.configure("log4j.properties");// Adding logger
         logger.info("open browser !!");
         initializeDriver();
     }

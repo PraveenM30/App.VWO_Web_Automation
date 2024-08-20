@@ -20,6 +20,7 @@ import java.time.Duration;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
+import org.apache.log4j.Logger;
 
 public class TestBase {
 
@@ -29,6 +30,7 @@ public class TestBase {
     public static String uniqueDataTestConfig = "app_001";
     public static boolean isTableVertical = true;
     public static LinkedHashMap<String, String> testConfigKeyValue = new LinkedHashMap<>();
+    public static Logger logger;
 
 
     public WebDriver initializeDriver() throws IOException {
