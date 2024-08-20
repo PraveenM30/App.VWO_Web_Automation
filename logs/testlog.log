@@ -17,3 +17,6 @@
 2024-08-20 22:03:47,332 - signin with InvalidCred - INFO - open browser !!
 2024-08-20 22:03:50,220 - signin with InvalidCred - INFO - sign in with invalid cred !!
 2024-08-20 22:03:50,221 - signin with InvalidCred - DEBUG - verifying the error message!
+2024-08-20 22:11:36,938 - signin with InvalidCred - INFO - open browser !!
+2024-08-20 22:11:40,548 - signin with InvalidCred - INFO - sign in with invalid cred !!
+2024-08-20 22:11:40,550 - signin with InvalidCred - DEBUG - verifying the error message!

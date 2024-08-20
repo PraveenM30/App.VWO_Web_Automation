@@ -60,14 +60,6 @@ public class LoginPage_POM extends TestBase {
         driver.get(url);
         driver.findElement(usernameLocator).sendKeys(username);
         driver.findElement(passwordLocator).sendKeys(password);
-
-        //Thread.sleep(10000);
-        TakesScreenshot shot=(TakesScreenshot) driver;
-        File file=shot.getScreenshotAs(OutputType.FILE);
-        String randomName= RandomStringUtils.randomAlphabetic(3);
-        File file1=new File("screenShots/"+randomName+".png");
-        FileUtils.copyFile(file, file1);
-
         driver.findElement(signButtonLocator);
 
     }
