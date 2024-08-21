@@ -22,7 +22,7 @@ public class DashboardPage_POM {
     }
 
     public WebElement WaitUntilvisibilityOfElement(int timeoutInSeconds) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(Aman));
     }
 }

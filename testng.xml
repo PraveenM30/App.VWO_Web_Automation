@@ -1,10 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_InvalidCredentials.java">
-        <classes>
-            <class name="VWO.SignInWith_InvalidCredentials"></class>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_InvalidCredentials.java"><classes><class name="VWO.SignInWith_InvalidCredentials"><methods><include name="signInWithInvalidCred"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_InvalidCredentials_PageFactory.java"><classes><class name="VWO.SignInWith_InvalidCredentials_PageFactory"><methods><include name="signInWithInvalidCred"/></methods></class></classes></test><test verbose="2" preserve-order="true" name="C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_ValidCred.java"><classes><class name="VWO.SignInWith_ValidCred"><methods><include name="SignInWithValidCred"/></methods></class></classes></test></suite>
