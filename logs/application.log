@@ -1,0 +1,13 @@
+2024-09-13 08:32:53,630 [main] INFO signin with InvalidCred - open browser !!
+2024-09-13 08:33:24,151 [TestNG-test-C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_InvalidCredentials.java-1] INFO signin with InvalidCred - sign in with invalid cred !!
+2024-09-13 08:33:24,156 [TestNG-test-C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_InvalidCredentials.java-1] DEBUG signin with InvalidCred - verifying the error message!
+2024-09-13 08:33:46,745 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-09-13 08:33:46,748 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-09-13 08:33:46,752 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-09-13 08:33:46,755 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-09-13 08:33:46,755 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-09-13 08:33:47,285 [main] DEBUG freemarker.cache - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-09-13 08:33:47,286 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-09-13 08:33:47,287 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-09-13 08:33:47,287 [main] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-09-13 08:33:47,288 [main] DEBUG freemarker.cache - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

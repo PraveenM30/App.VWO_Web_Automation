@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="Regression" parallel="methods">
     <listeners>
         <listener class-name="com.Utils.listerner"></listener>
+        <listener class-name="com.Utils.extentReporterNG"></listener>
     </listeners>
     <test verbose="2" preserve-order="true"
           name="C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_InvalidCredentials.java">
         <classes>
             <class name="VWO.SignInWith_InvalidCredentials">
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/user/intelij Workspace/App.VWO.com/src/test/java/VWO/SignInWith_ValidCred.java">
-        <classes>
-            <class name="VWO.SignInWith_ValidCred">
             </class>
         </classes>
     </test>
